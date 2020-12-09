@@ -1,7 +1,9 @@
 import React from 'react'
 import Post from '../Post/Post'
+import useStyles from './PostContainerStyle'
 
 const PostContainer = () => {
+    const classes = useStyles();
     return (
         <div>
             PostContainer
